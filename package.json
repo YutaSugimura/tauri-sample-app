@@ -7,15 +7,18 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
+    "tauri": "tauri",
     "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@tauri-apps/api": "^1.2.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
